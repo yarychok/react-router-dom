@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #344e41;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App-logo {
@@ -35,4 +38,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #dad7cd;
+}
+
+a {
+  color: #a3b18a;
+  text-decoration: none;
+  padding: 2em;
+}
+
+label {
+  font-size: 1.5em;
+  padding: 1em;
+  color: #dad7cd;
+}
+
+button {
+  background-color: #dad7cd;
+  color: #344e41;
+  border: 1px solid white;
+  margin: 1em;
 }
