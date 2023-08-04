@@ -13,7 +13,9 @@ import Extra from "../components/Extra";
 const RoutePath = () => {
     return (
         <Routes>
-            <Route path="" element={<Home />}/>
+            {/* <Route path="" element={<Home />}/> */}
+            {/* Fixed path for GitHub Pages */}
+            <Route path="react-router-dom" element={<Home />}/>
             <Route element={<Authorization permissions={ [PERMISSIONS.CAN_VIEW_ABOUT]} />}>
                 <Route path="about" element={<About />} />
             </Route>
